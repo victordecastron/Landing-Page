@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+    color: white;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+#logo{
+    margin: 20px 0px 0px 10px;
+}
+
+#menusuperior{
+    width: 100%;
+    padding: 20px 0px 85px 30px;
+    background-color: black;
+    background-image: url(imagens2/fundoheader2.svg);
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+#menusuperior h1{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 1  00;
+}
+
+#menuinferior {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background: var(--Cinza-claro, #EAECE5);
+}
+
+.icone{
+    margin: 11px 0px 10px 65px;
+    padding: 15px;
+}
+
+.textoinformativo {
+    color: #122235;
+    font-size: 20px;
+    margin: 30px 0px 28px 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#sessaovideo {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+#depoimento {
+    display: flex;
+    flex-direction: column;
+}
+
+#depoimento h2 {
+    color: #247BA0;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#depoimento p {
+    color: #383838;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+#carousel {
+    padding: 40px 60px 40px 60px;
+    background-color: #247BA0;
+}
+
+#carousel h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #EAECE5;
+    margin: 0px 30px 30px 30px;
+}
+
+.setas:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#pessoas {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#pessoas #samantha {
+    display: none;
+}
+
+
+
+#inputfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#textoinput {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+#inputs {
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+#inputs label {
+    color: black;
+}
+
+#inputs input {
+    border: 0px;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    padding: 8px;
+    background-color: lightgray;
+    color: black;
+}
+
+#button {
+    width: 270px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    background-color: #247BA0;
+}
+
+#button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0px 15px 20px rgb(82, 78, 78);
+    transition-duration: 0.2s;
+}
